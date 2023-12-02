@@ -1,0 +1,92 @@
+body{
+    background: rgb(217, 217, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+button{
+    font-size: 2.4rem;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    background-color: hsla(0, 0%, 30%);
+}
+
+button:hover{
+    background-color: hsla(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsla(0, 0%, 20%);
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding: 15px;
+}
+
+.calculator{
+    background-color: hsl(0, 0%, 58%);
+    border-radius: 20px;
+    max-width: 450px;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* min-height: 100vh; */
+}
+
+#screen{
+    width: 100%;
+    padding: 23px;
+    font-size: 4rem;
+    color: rgb(100, 182, 182);
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 18%)
+}
+
+.op{
+    background-color: hsl(0, 100%, 30%);
+}
+
+.op:hover{
+    background-color: hsl(0, 100%, 40%);
+}
+
+.op:active{
+    background-color: hsl(0, 100%, 20%);
+}
+
+.c{
+    background-color: hsl(23, 85%, 35%);
+}
+
+.c:hover{
+    background-color: hsl(23, 85%, 45%);
+}
+
+.c:active{
+    background-color: hsl(23, 85%, 25%);
+}
+
+.backspace{
+    background-color: hsl(15, 100%, 25%)
+}
+
+.backspace:hover{
+    background-color: hsl(15, 100%, 35%);
+}
+
+.backspace:active{
+    background-color: hsl(15, 100%, 20%);
+}
