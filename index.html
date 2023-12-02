@@ -11,26 +11,26 @@
     <div class="calculator">
         <input id="screen" readonly>
         <div class="buttons">
-            <button onclick="add_screen('+')" class="op">+</button>
             <button onclick="add_screen(1)">1</button>
             <button onclick="add_screen(2)">2</button>
             <button onclick="add_screen(3)">3</button>
-            <button onclick="add_screen('-')" class="op">-</button>
+            <button onclick="backspace()" class="backspace"><i class="material-icons">backspace</i></button>
             <button onclick="add_screen(4)">4</button>
             <button onclick="add_screen(5)">5</button>
             <button onclick="add_screen(6)">6</button>
-            <button onclick="add_screen('*')" class="op">*</button>
+            <button onclick="add_screen('+')" class="op">+</button>
             <button onclick="add_screen(7)">7</button>
             <button onclick="add_screen(8)">8</button>
             <button onclick="add_screen(9)">9</button>
-            <button onclick="add_screen('/')" class="op">/</button>
+            <button onclick="add_screen('-')" class="op">-</button>
             <button onclick="add_screen(0)">0</button>
             <button onclick="add_screen('.')">.</button>
             <button onclick="add_screen(ans)">Ans</button>
-            <button onclick="calc()" class="op">=</button>
-            <button onclick="backspace()" class="backspace"><i class="material-icons">backspace</i></button>
-            <hr style="opacity: 0;">
+            <button onclick="add_screen('*')" class="op">x</button>
             <button onclick="clear_screen()" class="c">C</button>
+            <hr style="opacity: 0;">
+            <button onclick="calc()" class="op">=</button>
+            <button onclick="add_screen('/')" class="op">÷</button>
         </div>
     </div>
     <script src="script.js"></script>
